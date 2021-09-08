@@ -32,16 +32,7 @@ public class MyProjet {
     public MyProjet() {
     }
 
-    /**
-     * Retrieves representation of an instance of myprojet.MyProjet
-     * @return an instance of java.lang.String
-     */
-    @GET
-    @Produces(javax.ws.rs.core.MediaType.APPLICATION_XML)
-    public String getXml() {
-        //TODO return proper representation object
-        throw new UnsupportedOperationException();
-    }
+  
 
       @GET
     @Path("afficherdetail&RECANGLE&{val1}&{val2}")
